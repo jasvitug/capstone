@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+       <title>Login/Create Account Form</title>
+	   <link rel="stylesheet" href="CSS/login_form.css">
+	   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script src="js/main.js" type="module"></script>
+	 
+  </head>
+  <body>
+        
+		<h1 id="heading">Glam Account</h1><br><br>
+		<a href="index.html"><img src="img/arrow.png" class="logo"></a>
+  
+<div class="row">
+    <div class="col-75">
+      <div class="container">
+        <form class="form" id="createAccount">
+  
+          <div class="row">
+            <div class="col-50">
+              <h1>Create Account</h1><br>
+  
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="text" id="email" name="email">
+              <div id="email_error"></div>
+
+              <label for="password"><i class="password"></i> Password</label>
+              <input type="password" id="password" name="password" >
+              
+              <label for="new_password"><i class="new_password"></i> Confirm Password</label>
+              <input type="password" id="new_password" name="new_password">
+              <div id="password_error"></div>
+          </div>
+          <input type="submit" value="Create Account" class="btn">
+          <p><a href="login_form.html">Already have an Account? Sign in</a></p>
+        </form>  
+        <script src="js/main.js"></script>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
